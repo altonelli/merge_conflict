@@ -1,11 +1,15 @@
 class ConflictsController < ApplicationController
 
-  def foo
-    puts "something"
-  end
-
   def break
     puts "another thing"
+  end
+
+  def foo
+    puts "foo"
+  end
+
+  def bar
+    puts "bar"
   end
 
 end
